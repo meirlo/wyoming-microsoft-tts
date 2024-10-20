@@ -1,4 +1,4 @@
-FROM python:3.12-slim-bullseye
+FROM --platform=linux/arm/v7 python:3.12-slim-bullseye
 
 # Install the Python package
 COPY . /app
